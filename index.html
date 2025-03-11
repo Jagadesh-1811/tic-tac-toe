@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XOXOXO - Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="logo-container">
+        <div id="logo">TIC-TAC-TOE</div>
+    </div>
+
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="screen">
+        <button id="play-btn" class="game-button">PLAY</button>
+    </div>
+
+    <!-- Mode Selection Screen -->
+    <div id="mode-screen" class="screen">
+        <h2>Select Game Mode</h2>
+        <button id="single-player-btn" class="game-button">Single Player</button>
+        <button id="multiplayer-btn" class="game-button">Multiplayer</button>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen">
+        <div id="game-message"></div>
+        <div id="timer-container">Time: <span id="timer">30</span>s</div>
+        <div id="game-board"></div>
+        <div id="game-controls">
+            <button id="reset-btn" class="game-button">Reset Game</button>
+            <button id="back-btn" class="game-button">Back to Menu</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
